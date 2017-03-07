@@ -1,0 +1,321 @@
+body
+{
+    background: #FFbb5b;
+    margin:0;
+    padding:10px;
+    width:1440px;
+    min-height:900px;
+}
+
+/* CORPO */
+#corpo
+{
+    width: 1920px;
+    min-height: 100%;
+}
+
+/* CONTENUTO */
+#contenuto
+{
+    margin-top:1%;
+    min-height: 700px;
+    width:960px;
+    margin-left:auto;
+    margin-right:auto;
+    background: #EDEDED;
+    padding:60px;
+    font-family: verdana, arial, serif;
+    text-decoration: none;
+    border-style:groove;
+    border-width:3px;
+    border-color:ADADAD
+}
+#contenuto a
+{
+    font-family: verdana, arial, serif;
+    text-decoration: none;
+}
+#contenuto a:link
+{
+    font-family: verdana, arial, serif;
+    text-decoration: none;
+}
+#contenuto a:visited
+{
+    font-family: verdana, arial, serif;
+    text-decoration: none;
+}
+#contenuto a:hover
+{
+    color: #3D570A;
+    font-family: verdana, arial, serif;
+    text-decoration: none;
+}
+
+/* FUNCTION BUTTON */
+#function_button {
+    background: #FFbb5b;
+    height: 80px; /* Altezza */
+    width: 200px; /* Larghezza */
+    padding: 0 10px; /* Padding */
+    border-style:groove;
+    border-width:3px;
+    border-color:ADADAD;
+}
+
+#function_text {
+    color: #666666; /* Colore del testo */
+    line-height: 30px; /* Altezza di riga */
+    height: 80px; /* Altezza */
+    width: 200px; /* Larghezza */
+    font-size:15px;
+    font-weight:bold;
+    text-align: center;
+    word-wrap:break-word;
+    vertical-align:middle;
+}
+
+/* INPUT */
+#input { /* Stili per il campo di testo e per la textarea */
+    background: #FFbb5b; /* Colore di sfondo */
+    color: #666666; /* Colore del testo */
+    height: 30px; /* Altezza */
+    line-height: 30px; /* Altezza di riga */
+    width: 250px; /* Larghezza */
+    padding: 0 10px; /* Padding */
+    font-size:15px;
+    font-weight:bold;
+}
+
+#input_text { /* Stili per il campo di testo e per la textarea */
+    color: #666666; /* Colore del testo */
+    height: 30px; /* Altezza */
+    line-height: 30px; /* Altezza di riga */
+    width: 150px; /* Larghezza */
+    padding: 0 10px; /* Padding */
+    font-size:15px;
+    font-weight:bold;
+}
+
+#input_button { /* Stili per il campo di testo e per la textarea */
+    background: #FFbb5b; /* Colore di sfondo */
+    color: #666666; /* Colore del testo */
+    height: 30px; /* Altezza */
+    line-height: 30px; /* Altezza di riga */
+    width: 100%; /* Larghezza */
+    padding: 0 10px; /* Padding */
+    font-size:15px;
+    font-weight:bold;
+}
+
+#list_element
+{
+    width:90%;
+    height:80px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:40px;
+    margin-top:40px;
+    color:  #FF9000;;
+    font-family: verdana, arial, serif;
+    font-size: 30px;
+    font-weight:bold;
+}
+
+
+
+
+
+option{
+    background: #8ac5a1; /* Colore di sfondo */
+}
+textarea { /* Stili per il campo di testo e per la textarea */
+    background: #8ac5a1; /* Colore di sfondo */
+    color: #fff; /* Colore del testo */
+    height: 100px; /* Altezza */
+    line-height: 30px; /* Altezza di riga */
+    width: 300px; /* Larghezza */
+    padding: 0 10px; /* Padding */
+}
+#titolo
+{
+    width:1920px;
+    height: 100px;
+    
+}
+#ls
+{
+    float:right;
+    width:20%;
+    height:100%;
+}
+
+#nav {
+    height: 100px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#nav ul {
+    width: 100%;
+    list-style: none;
+    height: 100%;
+    text-align: center;
+    line-height: 3;
+    
+}
+
+#nav li {
+    display: inline;
+    margin-right: 6em;
+}
+#pannello {
+    margin-left:auto;
+    margin-right:auto;
+}
+#pannello ul {
+    width: 100%;
+    list-style: none;
+    height: 100%;
+    text-align: center;
+    line-height: 3;
+    
+}
+#pannello li {
+    display: inline-block;
+    margin-right: 6em;
+    width: 100px;
+    height: 100px;
+    background: #8ac5a1; /* Colore di sfondo */
+    color: #fff; /* Colore del testo */
+    font-size: 15px;
+    font-weight:bold;
+    padding:10px;
+    
+}
+#button {
+    
+    
+}
+
+
+#searchbar{
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    line-height: 3;
+    font-size:20px;
+    padding-left:auto;
+    padding-right:auto;
+    background: #8ac5a1;
+    color:white;
+}
+
+#searchbutton {
+    background: url("img/wall.png")no-repeat;
+    color: transparent;
+}
+#avviso
+{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:40px;
+    background: #8ac5a1; /* Colore di sfondo */
+    color: #fff; /* Colore del testo */
+    font-size: 15px;
+    font-weight:bold;
+    padding:10px;
+}
+#avvisolog
+{
+    width:40%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:40px;
+    margin-top:40px;
+    background: #8ac5a1; /* Colore di sfondo */
+    color: #fff; /* Colore del testo */
+    font-size: 30px;
+    font-weight:bold;
+    padding:10px;
+}
+
+#title
+{
+    width:90%;
+    height:80px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:40px;
+    margin-top:40px;
+    color:  #FF9000;;
+    font-family: verdana, arial, serif;
+    font-size: 30px;
+    font-weight:bold;
+}
+
+
+#titolobacheca{
+    position:relative;
+    left:20px;
+    bottom:40px;
+    color:white;}
+#titoloa
+{
+    color:  #8ac5a1;;
+    font-family: verdana, arial, serif;
+    font-size: 30px;
+    font-weight:bold;
+    padding:10px;
+}
+#datia
+{
+    background: #8ac5a1; /* Colore di sfondo */
+    color: #fff; /* Colore del testo */
+    font-size: 15px;
+    font-weight:bold;
+    padding:10px;
+}
+#descrizionea
+{
+    word-wrap:break-word;
+    padding:10px;
+}
+#pages
+{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    
+    
+}
+#pages a
+{
+    display:inline-block;
+    margin:2%;
+    color:white;
+    
+}
+#num{
+    background-image: url("img/number.png");
+    background-size: 100%;
+    width:30px;
+    height:30px;
+    text-align:center;
+    font-size:20px;
+    text-decoration:none;
+    line-height:30px;
+}
+#pie
+{
+    margin-top:1%;
+    height: 3em;
+    background-size: 100%;
+    color:white;
+}
+
+
+.art tr { height: 30px; }
+
+.art th { width: 300px; }
